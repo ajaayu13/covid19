@@ -1,0 +1,255 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #2196f342;
+	border: 2px solid #0a0a4c;
+}
+
+header.h1
+{
+	font-size: 65px;
+	color: #0a0a4c;
+	font-family: serif;
+	text-align: center;
+	text-shadow: 3px 3px 3px #313c79;
+	
+	margin-top: -1px;
+	margin-bottom: 0px;
+
+}
+#animate
+{
+	animation-duration: 5s;
+	animation-name: glow;
+}
+h1
+{
+	font-size: 50px;
+
+	color: #0a0a4c;
+	font-family: serif;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 5px;
+	text-shadow: 3px 3px 3px #313c79;
+
+}
+h3
+{
+	font-size: 30px;
+	color: #0a0a4c;
+	font-family: serif;
+	font-weight: bolder;
+	text-align: center;
+	text-shadow: 1px 1px 3px #313c79;
+	line-height: 20%;
+	margin-bottom: 8px;
+	margin-top: 20px;
+
+}
+
+@keyframes glow{
+	from {
+    margin-left: 100%;
+    width: 100%;
+
+  }
+
+  to {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+
+.gallery
+{
+	max-width: 80%;
+	height: 50vw;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+
+  	border-radius: 6px;
+  	border: 2px solid #0a0a4c;
+  	
+}
+.header
+{
+	background-color: #3f51b547;
+	padding: 30px;
+	
+
+}
+
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #0a0a4c;
+  overflow: auto;
+
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right:  10px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: red;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #3f51b547;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.graph
+{
+	display: flex;
+	align-content: center;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 50vw;
+	padding-top: 15px;
+}
+
+.para
+{
+	text-align: center;
+	color: white;
+	font-size: 3vw;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	background-color: #0a0a4c;
+
+
+
+}
+
+.mybtn
+{
+
+	padding: 10px;
+	border: 2px solid black;
+	background-color: #0a0a4c;
+	color: white;
+	margin-bottom: 20px;
+	margin-left: 10vw;
+	cursor: pointer;
+
+}
+h5{
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.messagebox{
+  width:90%;
+  margin: auto;
+  background-color:white;
+  margin-bottom: 50px;
+  padding: 3px;
+  border-left:5px solid #0a0a4c;
+}
+
+/* Text boxes style in hover */
+.messagebox:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/* Default shadow style */
+.shadow{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+h2{
+	width: 90%;
+  text-align:left;
+  font-size:3em;
+  color:#0a0a4c;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -5px;
+
+  
+}
+li
+{
+	font-size: 20px;
+}
+
+#icon
+{
+	display: block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.mypic
+{
+	width: 20vw;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30vw;
+	border: 5px solid #0a0a4c;
+	margin-bottom: 10px;
+	margin-top: 5vw;
+	border-radius: 10px;
+	display: block;
+	align-content: center;
+}
+.myhead
+{
+	font-size: 5vw;
+	text-shadow: none;
+
+}
+.mybio
+{
+	width: 95%;
+	height: auto;
+	margin: auto;
+	background-color:#3f51b547;
+	color:#0a0a4c;
+	font-size: 30px;
+
+	font-weight: bold;
+}
+.content{
+  width:95%;
+  text-align: center;
+  color: #0a0a4c;
+  font-weight: 600;
+  font-size: 20px;
+  background-color:#3f51b547;
+  margin-bottom: 20px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+ 
+
+}
