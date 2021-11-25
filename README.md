@@ -1,4 +1,4 @@
-https://ajaayush-covid19.netlify.app/
+https://khushi-covid19.netlify.app/
 
 
 This is COVID-19 based website which will display live corona statistics across the world in a beautiful way. It also shows general FAQ's and suggestions to deal with this pandemic.
